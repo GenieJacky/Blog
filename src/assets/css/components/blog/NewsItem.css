@@ -1,0 +1,35 @@
+.newsitem-root {
+  display: flex;
+}
+
+.newsitem-root .newsitem-img {
+  width: 80px;
+  height: 80px;
+  margin-right: 19px;
+}
+
+.newsitem-root .newsitem-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  max-width: 410px;
+}
+
+.newsitem-root .newsitem-description .newsitem-description-title {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  text-decoration-line: underline;
+  color: #244d7e;
+}
+
+.newsitem-root .newsitem-description .newsitem-description-detail {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #3a4148;
+}

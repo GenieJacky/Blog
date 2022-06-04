@@ -1,0 +1,58 @@
+.blogcard {
+  display: flex;
+  width: 100%;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.blogcard .blogcard-img {
+  width: 392px;
+  height: 100%;
+}
+
+.blogcard .blogcard-description {
+  background: #eaecee;
+  padding: 50px 25px;
+  flex-grow: 1;
+}
+
+.blogcard .blogcard-description .blogcard-header {
+  display: flex;
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #2c3136;
+}
+.blogcard .blogcard-description .blogcard-header i {
+  color: #2c3136;
+  font-size: 22px;
+  line-height: 25px;
+  margin-right: 14px;
+}
+.blogcard .blogcard-description .blogcard-links {
+  width: 100%;
+  padding-top: 24px;
+  padding-left: 8px;
+}
+.blogcard .blogcard-description .blogcard-links .blogcard-link {
+  font-family: "Arial";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 166.49%;
+  text-decoration-line: underline;
+  color: #1b395e;
+}
+
+@media (max-width: 760px) {
+  .blogcard {
+    display: block;
+    border-radius: unset;
+  }
+  .blogcard .blogcard-img {
+    width: 100%;
+    height: 100%;
+  }
+}

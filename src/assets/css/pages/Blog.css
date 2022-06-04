@@ -1,0 +1,57 @@
+.blog-root {
+  background: #fff;
+  max-width: 960px;
+  width: 100%;
+  border-radius: 10px;
+  z-index: 2;
+}
+
+.blog-root .blog-content-root {
+  padding: 48px 20px 104px 20px;
+  position: relative;
+}
+
+.blog-root .blog-content-root .blog-content-title {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 32px;
+  text-align: center;
+  color: #244d7e;
+}
+
+.blog-root .blog-content-root .blog-content-news {
+  margin: 24px 0px;
+}
+
+.blog-gradient {
+  position: absolute;
+  left: -0.1%;
+  right: 0%;
+  top: 135.63%;
+  bottom: -63.22%;
+  background: radial-gradient(
+    50% 50% at 50% 50%,
+    #26415c 0%,
+    rgba(72, 80, 89, 0.83) 0.01%,
+    rgba(38, 65, 92, 0.48) 32.61%,
+    rgba(38, 65, 92, 0.15) 71.56%,
+    rgba(38, 65, 92, 0) 100%
+  );
+  z-index: 1;
+}
+
+@media (max-width: 768px) {
+  .blog-root .blog-content-root {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .blog-root .blog-content-root .blog-content-news {
+    padding: 15px;
+  }
+  .blog-root .blog-content-root .blog-content-title {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}

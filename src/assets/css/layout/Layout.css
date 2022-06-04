@@ -1,0 +1,29 @@
+.layout-root{
+  background: #CFD4D9;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 32px;
+  flex-direction: column;
+}
+
+.layout-footer{
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Georgia';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  text-align: center;
+  color: #2C3136;
+}
+
+@media(max-width: 768px){
+  .layout-root{
+    padding: 0;
+  }
+}

@@ -1,0 +1,39 @@
+.blogheader-root {
+  position: relative;
+  padding: 13.5px 20px;
+}
+
+.blogheader-root .blogheader-title {
+  font-family: "Georgia";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  text-transform: uppercase;
+  color: #244d7e;
+}
+
+.blogheader-root .blogheader-icon {
+  position: absolute;
+  top: -35px;
+  right: 40%;
+}
+
+@media (max-width: 768px) {
+  .blogheader-root {
+    text-align: center;
+    padding: 0;
+  }
+  .blogheader-root .blogheader-icon {
+    margin-top: 13px;
+    position: relative;
+    top: unset;
+    right: unset;
+  }
+  .blogheader-root .blogheader-title {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    border-top: 1px solid #949fab;
+    border-bottom: 1px solid #949fab;
+  }
+}
